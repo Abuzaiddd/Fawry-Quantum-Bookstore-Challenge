@@ -50,3 +50,8 @@ The entire project is contained within a single file for simplicity.
   * **`PaperBook`, `EBook`, `ShowcaseBook`**: Concrete classes that extend `Book` and provide specific implementations for their unique characteristics.
   * **`ShippingService` & `MailService` (interfaces)**: Define the contracts for external services. This decoupling means the bookstore doesn't need to know the details of *how* shipping or emailing works, only that it can be done.
   * **`MockShippingService` & `MockMailService`**: Mock implementations of the service interfaces used for testing and demonstration purposes.
+  * 
+![Screenshot 2025-07-09 012516](https://github.com/user-attachments/assets/14fa3299-d41b-4f66-b77e-1d154ce708aa)
+![Screenshot 2025-07-09 012538](https://github.com/user-attachments/assets/73e56661-614d-4fb0-9fde-ccd34f6c96f1)
+![Screenshot 2025-07-09 012614](https://github.com/user-attachments/assets/9ddcf7d5-f483-4d67-a499-29057d5bc1be)
+
